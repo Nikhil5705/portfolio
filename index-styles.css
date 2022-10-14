@@ -42,6 +42,7 @@ text-decoration: none;
 }
 .text{
     color: darkgray;
+    display: block;
     text-align: center;
 }
 .highlited-text{
@@ -57,7 +58,7 @@ text-decoration: none;
 .normal-section{
     text-align: center;
     padding: 0.5rem;
-    color: #84cc16;
+    color: darkgray;
 }
 .footer{
     background-color: #fbbf24;
@@ -65,6 +66,7 @@ text-decoration: none;
     color: white;
     text-align: center;
     border-top-right-radius: 1rem;
+    margin-top: 1rem;
 }
 .footer-bar{
     text-decoration: none;
@@ -76,11 +78,11 @@ text-decoration: none;
     color: 
     #6b7280;
 }
-.blog-img {
+/* .blog-img {
     max-width: 450px;
     display: block;
-    margin: auto;
-}
+    margin: auto; 
+}*/
 .page-link{
     text-decoration: none;
     border-radius: 0.5rem;
@@ -115,4 +117,7 @@ text-decoration: none;
 }
 .div-txt{
     margin: 1rem 0rem;
+}
+.blog-para{
+    padding: 1rem 20rem;
 }
